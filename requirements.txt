@@ -1,6 +1,6 @@
 matplotlib==3.7.1
 numpy==1.23.5
-PyAudio-0.2.11-cp311-cp311-win_amd64.whl
+PyAudio
 Requests==2.29.0
 spacy==3.5.2
 streamlit==1.22.0
