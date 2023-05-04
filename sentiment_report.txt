@@ -1,0 +1,25 @@
+Phrase: The stale smell of old beer lingers.
+Sentiment polarity: -0.2
+Sentiment nature: NEGATIVE
+Sentiment subjectivity: 0.35
+
+Phrase: It takes heat to bring out the odor.
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
+
+Phrase: A cold dip restores health and zest.
+Sentiment polarity: -0.6
+Sentiment nature: NEGATIVE
+Sentiment subjectivity: 1.0
+
+Phrase: A salt pickle tastes fine with ham tacos al pastor are my favorite.
+Sentiment polarity: 0.45833333333333337
+Sentiment nature: POSITIVE
+Sentiment subjectivity: 0.75
+
+Phrase: A zestful food is the hot cross bun.
+Sentiment polarity: 0.125
+Sentiment nature: POSITIVE
+Sentiment subjectivity: 0.42500000000000004
+
