@@ -2,7 +2,7 @@ altair
 matplotlib
 numpy
 pandas
-PyAudio
+pyaudio
 Requests
 spacy
 streamlit
