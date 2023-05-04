@@ -77,7 +77,6 @@ psycopg2==2.9.6
 pyarrow==11.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/Rishabh/Desktop/speech-recognition/PyAudio-0.2.11-cp311-cp311-win_amd64.whl#sha256=5092b46bff5d6687db817bde4a71ffc50dd316cc2e490ee81908f0c95ef2644f
 pycparser==2.21
 pydantic==1.10.7
 pydeck==0.8.1b0
