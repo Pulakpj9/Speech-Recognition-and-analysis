@@ -9,3 +9,4 @@ wavio
 python-dotenv
 pydantic
 typing-extensions==4.6.1
+PortAudio
