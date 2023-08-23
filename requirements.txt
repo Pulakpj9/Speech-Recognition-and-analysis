@@ -6,5 +6,4 @@ streamlit
 textblob
 sounddevice
 wavio
-scipy.io.wavfile
 python-dotenv

@@ -1,3 +1,8 @@
+Phrase: You.
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
+
 Phrase: Hello.
 Sentiment polarity: 0.0
 Sentiment nature: NEUTRAL

@@ -1,6 +1,6 @@
 # import required libraries
 import sounddevice as sd
-from scipy.io.wavfile import write
+# from scipy.io.wavfile import write
 import wavio as wv
 
 def recordMic():
@@ -23,7 +23,10 @@ def recordMic():
     print("recorded!!")
     # This will convert the NumPy array to an audio
     # file with the given sampling frequency
-    write("recorded_output.wav", freq, recording)
+    # write("recorded_output.wav", freq, recording)
+    
+    # Convert the NumPy array to audio file
+    wv.write("recorded_output.wav", recording, freq, sampwidth=2)
     return "recorded_output.wav"
 
     # FRAMES_PER_BUFFER = 3200
