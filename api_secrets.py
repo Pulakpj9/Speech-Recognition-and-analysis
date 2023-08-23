@@ -1,1 +1,4 @@
-API_KEY_ASSEMBLYAI="76a583a06cf942b7b8ed3244f846e175"
+import os
+from dotenv import load_dotenv,dotenv_values
+load_dotenv()
+API_KEY_ASSEMBLYAI= os.getenv("MY_SECRET_KEY")

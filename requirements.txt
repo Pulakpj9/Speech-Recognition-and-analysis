@@ -1,7 +1,10 @@
 matplotlib
 numpy
-PyAudio
 Requests
 spacy
 streamlit
 textblob
+sounddevice
+wavio
+scipy.io.wavfile
+python-dotenv

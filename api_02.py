@@ -3,9 +3,12 @@ import requests
 import time
 from api_secrets import API_KEY_ASSEMBLYAI
 
+import os
+from dotenv import load_dotenv,dotenv_values
+load_dotenv()
 
-upload_endpoint = 'https://api.assemblyai.com/v2/upload'
-transcript_endpoint = 'https://api.assemblyai.com/v2/transcript'
+upload_endpoint = os.getenv("UPLOAD_ENDPOINT")
+transcript_endpoint = os.getenv("TRANSCRIPT_ENDPOINT")
 
 headers_auth_only = {'authorization': API_KEY_ASSEMBLYAI}
 

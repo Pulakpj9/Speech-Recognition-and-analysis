@@ -3,8 +3,13 @@ Sentiment polarity: 0.0
 Sentiment nature: NEUTRAL
 Sentiment subjectivity: 0.0
 
-Phrase: My name is Full of Jing.
-Sentiment polarity: 0.35
-Sentiment nature: POSITIVE
-Sentiment subjectivity: 0.55
+Phrase: My name is Polak Jain.
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
+
+Phrase: One, two, three.
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
 
