@@ -7,3 +7,6 @@ textblob
 sounddevice
 wavio
 python-dotenv
+pydantic
+typing-extensions
+validators
