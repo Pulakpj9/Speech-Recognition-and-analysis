@@ -7,4 +7,7 @@ textblob
 sounddevice
 wavio
 python-dotenv
---upgrade pydantic
+pydantic
+typing-extensions
+validators
+wheel
