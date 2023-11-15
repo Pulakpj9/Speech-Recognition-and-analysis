@@ -3,7 +3,7 @@ from api_02 import *
 from textblob import TextBlob
 from sentiment import *
 from summarization import *
-from recordmic import *
+from recordmic import recordMic
 from audioplot import *
 
 def process_audio_file(filename):
