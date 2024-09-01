@@ -3,8 +3,8 @@ from api_02 import *
 from textblob import TextBlob
 from sentiment import *
 from summarization import *
-from recordmic import recordMic
-from audioplot import *
+# from recordmic import recordMic
+# from audioplot import *
 
 def process_audio_file(filename):
     audio_url = upload(filename)
@@ -101,16 +101,16 @@ def main():
             if st.button("Process File"):
                 process_audio_file("uploaded.wav")
 
-    elif option == "Record Audio":
-        # duration = st.slider("Recording duration (seconds)", min_value=1, max_value=10, value=5, step=1)
-        if st.button("Start Recording"):
-            st.write("Recording...")
-            with st.spinner('Recording in progress...'):
-                filename = recordMic()
-                st.success("Recording complete!")
-                st.audio(open(filename, "rb").read(), format="audio/wav")
-        # print(st.button("Process File"))
-        if st.button("Process File"):
+    # elif option == "Record Audio":
+    #     # duration = st.slider("Recording duration (seconds)", min_value=1, max_value=10, value=5, step=1)
+    #     if st.button("Start Recording"):
+    #         st.write("Recording...")
+    #         with st.spinner('Recording in progress...'):
+    #             filename = recordMic()
+    #             st.success("Recording complete!")
+    #             st.audio(open(filename, "rb").read(), format="audio/wav")
+    #     # print(st.button("Process File"))
+    #     if st.button("Process File"):
             try:
                 process_audio_file("recorded_output.wav")
             except Exception as e:
