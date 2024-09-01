@@ -1,2 +1,10 @@
 .env
 Report.pdf
+__pycache__
+myenv
+recorded_ouput.wav
+sentiment_report.txt
+Statements.txt
+summary.txt
+transcript.txt
+uploaded.wav

@@ -1,0 +1,15 @@
+Phrase: Hello?
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
+
+Phrase: Hello?
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
+
+Phrase: 123123 hello?
+Sentiment polarity: 0.0
+Sentiment nature: NEUTRAL
+Sentiment subjectivity: 0.0
+

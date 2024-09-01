@@ -8,10 +8,11 @@ from audioplot import *
 
 def process_audio_file(filename):
     audio_url = upload(filename)
-    print(audio_url)
+    # print(audio_url)
     # audioPlot(filename)
 
-    st.write("Your File got processed successfully!")
+    # st.write("Your File got processed successfully!")
+
     # st.write("Please choose an option below to view the results.")
 
     # save_transcript(audio_url, 'transcript')

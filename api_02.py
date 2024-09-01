@@ -4,7 +4,7 @@ import time
 from api_secrets import API_KEY_ASSEMBLYAI
 
 import os
-from dotenv import load_dotenv,dotenv_values
+from dotenv import load_dotenv,dotenv_values # type: ignore
 load_dotenv()
 
 upload_endpoint = os.getenv("UPLOAD_ENDPOINT")
@@ -28,7 +28,6 @@ def upload(filename):
                 if not data:
                     break
                 yield data
-
     upload_response = requests.post(upload_endpoint, headers=headers_auth_only, data=read_file(filename))
     return upload_response.json()['upload_url']
 
